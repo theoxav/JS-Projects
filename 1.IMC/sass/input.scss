@@ -1,0 +1,28 @@
+.inputs-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inputs-container label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  
+  .inputs-container input{
+    min-width: 350px;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  .inputs-container input:focus {
+    outline: 1px solid #222222be;
+  }
+  .input-group:nth-child(2) {
+    margin-left: 20px;
+  }
+  
